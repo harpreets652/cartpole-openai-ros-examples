@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find cartpole_description)/launch/main.launch" />
+  <include file="$(find cartpole_openai_ros_examples)/launch/start_training_mbalunovic.launch" />
+</launch>
