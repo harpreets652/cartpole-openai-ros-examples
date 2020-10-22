@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 
 import gym
@@ -137,10 +137,7 @@ def main():
       
 
       if done:
-        print 'Episode {}, iterations: {}'.format(
-          episode,
-          iteration
-        )
+        print(f"Episode {episode}, iterations: {iteration}")
 
         # print action_model.get_weights()
         # print target_model.get_weights()
